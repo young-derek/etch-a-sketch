@@ -17,11 +17,8 @@
     flex-flow: row wrap;
     width: 80%;
     margin: auto;
-    /* height: 90vh; */
     margin-top: 5vh;
-    /* align-content: center; */
     max-width: 600px;
-    border: 2px solid green;
 }
 
 .grid-tile {
