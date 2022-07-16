@@ -37,4 +37,3 @@ buttonResize.addEventListener('click', event => {
         alert('Error - Enter a whole number between 1 and 100.');
     }
 });
-
