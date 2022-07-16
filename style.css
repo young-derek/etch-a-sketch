@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    margin-top: 5vh;
+}
+
+.grid-tile
+{
+    width: calc(99% / 16);
+    border: 1px solid black;
+}
