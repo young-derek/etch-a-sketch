@@ -10,7 +10,10 @@ function createGrid(gridSize)
         gridTile.classList.add('grid-tile');
         mainContainer.appendChild(gridTile);
         gridTile.addEventListener('mouseover', () => {
-            gridTile.classList.add('grid-hover');
+            let randomColor = `${Math.floor(Math.random() * 255)},
+            ${Math.floor(Math.random() * 255)},
+            ${Math.floor(Math.random() * 255)}`
+            gridTile.style.backgroundColor = `rgb(${randomColor})`;
         })
         gridTile.style.width = `calc(100% / ${gridSize})`;
         gridTile.style.height = `calc(80vw / ${gridSize})`;
@@ -27,10 +30,11 @@ buttonResize.addEventListener('click', event => {
         && newGridSize <= 100) {
 
         mainContainer.textContent = "";
-        
+
         createGrid(newGridSize);
     }
     else {
         alert('Error - Enter a whole number between 1 and 100.');
     }
 });
+

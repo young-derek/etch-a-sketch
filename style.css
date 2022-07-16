@@ -9,7 +9,10 @@
 
 #button-resize {
     margin: 0 auto;
-    padding: 20px;
+    width: 80%;
+    padding: 30px;
+    background-color: skyblue;
+    border: 2px solid black;
 }
 
 .container {
@@ -26,8 +29,4 @@
     height: calc(80vw / 16);
     max-height: calc(600px / 16);
     border: 1px solid black;
-}
-
-.grid-hover {
-    background-color: black;
 }
