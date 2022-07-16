@@ -26,8 +26,5 @@
 }
 
 .grid-tile {
-    width: calc(100% / 16);
-    height: calc(80vw / 16);
-    max-height: calc(600px / 16);
     border: 1px solid black;
 }
